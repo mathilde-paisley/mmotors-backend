@@ -1,0 +1,21 @@
+# Fichiers système macOS
+.DS_Store
+
+# Environnement virtuel Python
+.venv/
+venv/
+
+# Variables d'environnement réelles
+.env
+
+# Cache Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Couverture de tests
+.coverage
+htmlcov/
+
+# Logs
+*.log

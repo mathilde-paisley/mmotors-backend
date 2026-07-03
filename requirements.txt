@@ -1,0 +1,30 @@
+
+# ============================================================
+# Dépendances Python du projet M-Motors
+# ============================================================
+
+# Framework Back-End
+fastapi
+uvicorn[standard]
+
+# Templates HTML côté serveur
+jinja2
+
+# Base de données PostgreSQL et ORM
+sqlalchemy
+psycopg[binary]
+
+# Variables d'environnement
+python-dotenv
+
+# Authentification et sécurité
+python-jose[cryptography]
+passlib[bcrypt]
+
+# Formulaires et téléversement de fichiers
+python-multipart
+
+# Tests et couverture
+pytest
+httpx
+pytest-cov
