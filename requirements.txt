@@ -28,3 +28,5 @@ python-multipart
 pytest
 httpx
 pytest-cov
+email-validator
+bcrypt==4.3.0
