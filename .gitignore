@@ -19,3 +19,6 @@ htmlcov/
 
 # Logs
 *.log
+
+# Bases de données locales SQLite
+*.db
